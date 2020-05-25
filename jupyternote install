@@ -1,0 +1,4 @@
+2020.05.25
+
+terminal에서 설치 및 삭제하다가 Permission denied 뜨는 경우 
+sudo 명령어 앞에 붙여서 해보기
