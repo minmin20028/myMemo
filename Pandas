@@ -13,3 +13,27 @@ df=pd.DataFrame(data=BabyDataSet,columns=['Names','Births'])
 
 #데이터 프레임 상단 출력
 df.head()
+
+#데이터 프레임 열 타입 정보
+df.dtypes
+
+#데이터 프레임 형태 정보
+df.index
+
+#데이터 프레임 열 정보
+df.columns
+
+#df births 열 출력
+df['births']
+
+#df 0~2번째 출력
+df[0:3] or df[:3]
+
+#조건
+df[df['births']>100]
+
+#평균(names는 평균이 불가, births만 출력) 
+df.mean()
+
+#각종 통계
+df.describe()
