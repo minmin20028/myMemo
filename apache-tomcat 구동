@@ -2,5 +2,6 @@ tomcat 서버 구동
 
 1. /usr/local/Cellar/tomcat@8/8.5.55/bin
 2. 서버 시작 : ./catalina start
+3. 서버 주소 : localhost:8080
 3. 이용 끝 : ./catalina stop
 4. 참고 : https://54studio.tistory.com/16
