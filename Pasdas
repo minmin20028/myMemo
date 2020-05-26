@@ -1,0 +1,15 @@
+import pandas as pd
+
+#주어진 파이썬 리스트
+names = ['Bob','Jessica','Mary','John','Mel']
+births = [968, 155, 77, 578, 973]
+custom = [1, 5, 25, 13, 23232]
+
+#리스트 두개 묶어서 하나의 리스트 다시 생성
+BabyDataSet=list(zip(names,births))
+
+#판다스 데이터 프레임 생성
+df=pd.DataFrame(data=BabyDataSet,columns=['Names','Births'])
+
+#데이터 프레임 상단 출력
+df.head()
